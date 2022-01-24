@@ -1,3 +1,5 @@
 "# keyclock" 
- iniciando com Keyclock
  
+ Iniciando com Keyclock
+ Configuração do bd
+ Configuração de email

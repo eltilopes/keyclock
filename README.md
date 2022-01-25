@@ -116,7 +116,8 @@ https://www.keycloak.org/docs/latest/server_development/index.html#_themes
 
 ## Configuração do email
 
-Iniciar o FakeSMTP
+Iniciar o FakeSMTP(mvn clean package na pasta do projeto)
+C:\workspaceKeyclock\FakeSMTP-master\target
 
 $ java -jar fakeSMTP-2.0.jar
 
@@ -128,5 +129,8 @@ Configurar email nas configurações de realm
  Host : 127.0.0.1
  Port : 2525
  From : empresa@email.com
+{Testar conexao}
 
+Referencias: 
 
+https://www.youtube.com/watch?v=uyIGNyuwlh8&list=PL3KCMjFLdlVgnnJc4DAmoY5aRGr0p9AVL&index=4&t=2s

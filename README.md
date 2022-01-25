@@ -1,6 +1,6 @@
-"# keyclock" 
- 
-  ##Iniciando com Keyclock
+# keyclock
+
+## Iniciando com Keyclock
 
  Instalando o Keycloak
 
@@ -30,7 +30,8 @@ Modificar algumas configurações de Realm
 
  https://www.youtube.com/playlist?list=PL3KCMjFLdlVgnnJc4DAmoY5aRGr0p9AVL
 
- ##Configuração do bd
+
+## Configuração do bd
 
  Configurando Banco de Dados MySQL
 Pré-requisitos

@@ -132,5 +132,5 @@ Configurar email nas configurações de realm
 {Testar conexao}
 
 Referencias: 
-
+https://github.com/Nilhcem/FakeSMTP
 https://www.youtube.com/watch?v=uyIGNyuwlh8&list=PL3KCMjFLdlVgnnJc4DAmoY5aRGr0p9AVL&index=4&t=2s

@@ -116,3 +116,17 @@ https://www.keycloak.org/docs/latest/server_development/index.html#_themes
 
 ## Configuração do email
 
+Iniciar o FakeSMTP
+
+$ java -jar fakeSMTP-2.0.jar
+
+Inserir um email no usuário admin
+
+exemplo@email.com
+
+Configurar email nas configurações de realm
+ Host : 127.0.0.1
+ Port : 2525
+ From : empresa@email.com
+
+

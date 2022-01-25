@@ -102,4 +102,17 @@ https://www.youtube.com/watch?v=gsWROB9WFrs&list=PL3KCMjFLdlVgnnJc4DAmoY5aRGr0p9
 https://medium.com/@pratik.dandavate/setting-up-keycloak-standalone-with-mysql-database-7ebb614cc229
 
  
- ##Configuração de email
+
+## Customizando Tela de Login - Inlcusão de THEME
+
+Foi customizada a tela de login.
+Criado um novo diretorio themes/ecommerce e definida na aba Realm/Themes
+
+Referências:
+
+https://www.baeldung.com/keycloak-custom-login-page
+https://www.baeldung.com/spring-keycloak-custom-themes#customization-example
+https://www.keycloak.org/docs/latest/server_development/index.html#_themes
+
+## Configuração do email
+

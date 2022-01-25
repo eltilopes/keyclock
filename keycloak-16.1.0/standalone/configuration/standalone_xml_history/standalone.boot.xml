@@ -111,15 +111,27 @@
                         <password>sa</password>
                     </security>
                 </datasource>
-                <datasource jndi-name="java:jboss/datasources/KeycloakDS" pool-name="KeycloakDS" enabled="true" use-java-context="true" statistics-enabled="${wildfly.datasources.statistics-enabled:${wildfly.statistics-enabled:false}}">
-                    <connection-url>jdbc:h2:${jboss.server.data.dir}/keycloak;AUTO_SERVER=TRUE</connection-url>
-                    <driver>h2</driver>
-                    <security>
-                        <user-name>sa</user-name>
-                        <password>sa</password>
-                    </security>
+                <datasource jndi-name="java:/jboss/datasources/KeycloakDS" pool-name="KeycloakDS" enabled="true">
+                  <connection-url>jdbc:mysql://localhost:3306/keyclock?useSSL=false</connection-url> 
+                  <driver>mysql</driver>
+                  <pool>
+                      <min-pool-size>5</min-pool-size>
+                      <max-pool-size>15</max-pool-size>
+                  </pool>
+                  <security>
+                      <user-name>root</user-name>
+                      <password>admin</password>
+                  </security>
+                  <validation>
+                      <valid-connection-checker class-name="org.jboss.jca.adapters.jdbc.extensions.mysql.MySQLValidConnectionChecker"/>
+                      <validate-on-match>true</validate-on-match>
+                      <exception-sorter class-name="org.jboss.jca.adapters.jdbc.extensions.mysql.MySQLExceptionSorter"/>
+                  </validation>
                 </datasource>
                 <drivers>
+                    <driver name="mysql" module="com.mysql">
+                        <driver-class>com.mysql.jdbc.Driver</driver-class>
+                    </driver>    
                     <driver name="h2" module="com.h2database.h2">
                         <xa-datasource-class>org.h2.jdbcx.JdbcDataSource</xa-datasource-class>
                     </driver>

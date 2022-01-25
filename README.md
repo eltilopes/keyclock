@@ -6,6 +6,8 @@
 
 Faça o download do keycloak:
 
+Rodar em outra porta : standalone.sh -Djboss.socket.binding.port-offset=100
+
 curl https://downloads.jboss.org/keycloak/6.0.1/keycloak-6.0.1.zip --output keycloak-6.0.1.zip
 
 Unzip 

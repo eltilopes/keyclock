@@ -136,3 +136,11 @@ Configurar email nas configurações de realm
 Referencias: 
 https://github.com/Nilhcem/FakeSMTP
 https://www.youtube.com/watch?v=uyIGNyuwlh8&list=PL3KCMjFLdlVgnnJc4DAmoY5aRGr0p9AVL&index=4&t=2s
+
+## Configuração Login Google(Identify Provider)
+
+Habilitando autenticação com o Google
+
+Referencias: 
+http://www.mastertheboss.com/keycloak/google-social-login-with-keycloak/?amp=1
+https://console.developers.google.com/

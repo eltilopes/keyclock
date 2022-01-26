@@ -141,6 +141,9 @@ https://www.youtube.com/watch?v=uyIGNyuwlh8&list=PL3KCMjFLdlVgnnJc4DAmoY5aRGr0p9
 
 Habilitando autenticação com o Google
 
+Utilizar java 11 e keyclock 16
+
 Referencias: 
+https://keycloakthemes.com/blog/how-to-setup-sign-in-with-google-using-keycloak
 http://www.mastertheboss.com/keycloak/google-social-login-with-keycloak/?amp=1
 https://console.developers.google.com/

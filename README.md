@@ -1,6 +1,6 @@
 # keyclock
 
-## Iniciando com Keyclock
+## Iniciando com Keyclock Referências
 
  Instalando o Keycloak
 
@@ -30,7 +30,7 @@ Fazer login com o usuário criado
 Modificar algumas configurações de Realm
 
 
-Referências:
+<b>Referências</b>:
 
 https://www.youtube.com/playlist?list=PL3KCMjFLdlVgnnJc4DAmoY5aRGr0p9AVL
 
@@ -102,7 +102,7 @@ Mostrar o SPI connectionsJpa
                 </provider>
             </spi>
 
-Referências:
+<b>Referências</b>:
 
 https://www.youtube.com/watch?v=gsWROB9WFrs&list=PL3KCMjFLdlVgnnJc4DAmoY5aRGr0p9AVL&index=6
 
@@ -115,7 +115,7 @@ https://medium.com/@pratik.dandavate/setting-up-keycloak-standalone-with-mysql-d
 Foi customizada a tela de login.
 Criado um novo diretorio themes/ecommerce e definida na aba Realm/Themes
 
-Referências:
+<b>Referências</b>:
 
 https://www.baeldung.com/keycloak-custom-login-page
 
@@ -140,7 +140,8 @@ Configurar email nas configurações de realm
  From : empresa@email.com
 {Testar conexao}
 
-Referencias: 
+<b>Referências</b>:
+
 https://github.com/Nilhcem/FakeSMTP
 
 https://www.youtube.com/watch?v=uyIGNyuwlh8&list=PL3KCMjFLdlVgnnJc4DAmoY5aRGr0p9AVL&index=4&t=2s
@@ -151,7 +152,8 @@ Habilitando autenticação com o Google
 
 Utilizar java 11 e keyclock 16
 
-Referencias: 
+<b>Referências</b>:
+
 https://keycloakthemes.com/blog/how-to-setup-sign-in-with-google-using-keycloak
 
 http://www.mastertheboss.com/keycloak/google-social-login-with-keycloak/?amp=1

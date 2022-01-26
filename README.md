@@ -159,3 +159,9 @@ https://keycloakthemes.com/blog/how-to-setup-sign-in-with-google-using-keycloak
 http://www.mastertheboss.com/keycloak/google-social-login-with-keycloak/?amp=1
 
 https://console.developers.google.com/
+
+<b>Facebook não implementado</b>:
+
+https://medium.com/@didelotkev/facebook-as-identity-provider-in-keycloak-cf298b47cb84
+
+https://wjw465150.gitbooks.io/keycloak-documentation/content/server_admin/topics/identity-broker/social/facebook.html

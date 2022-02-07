@@ -160,7 +160,7 @@ http://www.mastertheboss.com/keycloak/google-social-login-with-keycloak/?amp=1
 
 https://console.developers.google.com/
 
-<b>Facebook não implementado</b>:
+<b>Facebook</b>:
 
 https://medium.com/@didelotkev/facebook-as-identity-provider-in-keycloak-cf298b47cb84
 
